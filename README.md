@@ -1,7 +1,6 @@
 # RPNet
 
-This code is built upon the work done A Deep Learning approach for robust R Peak detection in noisy ECG
-
+This code is based on the work done in "A Deep Learning approach for robust R Peak detection in noisy ECG". The trained model has been utilised with the dataset I gathered to determine the accurarcy of this method in predicting emotions based on heart rhythm. This method is compared against detrending method to detect peaks from basic UWB radar data.
 ## Research
 
 ### Architecture Diagram
@@ -10,12 +9,9 @@ This code is built upon the work done A Deep Learning approach for robust R Peak
   <image src = 'imgs/Unet_5.png' >
 </p>
 
-### Datasets
+### Datasets (for training)
 
-1) [Chinese Physiological Signal Challenge (CPSC 2019)](http://2019.cpscsub.com/)
-2) [MITBIH Database](https://www.physionet.org/content/mitdb/1.0.0/)
-3) [MIT-BIH ST Change Database](http://physionet.incor.usp.br/physiobank/database/stdb/)
-4) [Noise Stress Test DataBase (NSTDB)](https://www.physionet.org/content/nstdb/1.0.0/) 
+[Chinese Physiological Signal Challenge (CPSC 2019)](http://2019.cpscsub.com/)
 
 ### Quantitative Comparisons
 Evaluation of model and three traditional methods on CPSC dataset
